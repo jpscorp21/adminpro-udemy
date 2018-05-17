@@ -6,13 +6,13 @@ import { ChartsModule } from 'ng2-charts';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { ProgressComponent } from './progress/progress.component';
 import { Graficas1Component } from './graficas1/graficas1.component';
-import { NopagefoundComponent } from './nopagefound/nopagefound.component';
 import { PagesComponent } from './pages.component';
 import { SharedModule } from '../shared/shared.module';
 
 // Temporal
 import { IncrementadorComponent } from '../components/incrementador/incrementador.component';
 import { GraficoDonaComponent } from '../components/grafico-dona/grafico-dona.component';
+import { AccountSettingsComponent } from './account-settings/account-settings.component';
 
 
 @NgModule({
@@ -20,10 +20,10 @@ import { GraficoDonaComponent } from '../components/grafico-dona/grafico-dona.co
     DashboardComponent,
     ProgressComponent,
     Graficas1Component,
-    NopagefoundComponent,
     PagesComponent,
     IncrementadorComponent,
-    GraficoDonaComponent
+    GraficoDonaComponent,
+    AccountSettingsComponent
   ], // PARA QUE SEAN ACCEDIDAS POR TODA LA APLICACION
   imports: [
     SharedModule,
@@ -35,10 +35,10 @@ import { GraficoDonaComponent } from '../components/grafico-dona/grafico-dona.co
     DashboardComponent,
     ProgressComponent,
     Graficas1Component,
-    NopagefoundComponent,
     PagesComponent,
     IncrementadorComponent,
-    GraficoDonaComponent
+    GraficoDonaComponent,
+    AccountSettingsComponent
   ]
 })
 
